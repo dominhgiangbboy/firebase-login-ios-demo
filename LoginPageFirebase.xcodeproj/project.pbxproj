@@ -16,6 +16,16 @@
 		E46446BE29EE8A7400D22B8C /* LoginPageFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446BD29EE8A7400D22B8C /* LoginPageFirebaseTests.swift */; };
 		E46446C829EE8A7400D22B8C /* LoginPageFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446C729EE8A7400D22B8C /* LoginPageFirebaseUITests.swift */; };
 		E46446CA29EE8A7400D22B8C /* LoginPageFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446C929EE8A7400D22B8C /* LoginPageFirebaseUITestsLaunchTests.swift */; };
+		E46446D929EE8CDC00D22B8C /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446D829EE8CDB00D22B8C /* UserEntity.swift */; };
+		E46446DC29EE8F5F00D22B8C /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446DB29EE8F5F00D22B8C /* UseCase.swift */; };
+		E46446DF29EE900A00D22B8C /* UserAuthUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446DE29EE900A00D22B8C /* UserAuthUseCase.swift */; };
+		E46446E429EE90AB00D22B8C /* UserLoginUseCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446E329EE90AB00D22B8C /* UserLoginUseCaseTest.swift */; };
+		E46446E629EE91E700D22B8C /* Respnse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446E529EE91E700D22B8C /* Respnse.swift */; };
+		E46446EB29EE932600D22B8C /* UserEntityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446EA29EE932600D22B8C /* UserEntityTest.swift */; };
+		E46446ED29EE94DC00D22B8C /* TodoListEntityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446EC29EE94DC00D22B8C /* TodoListEntityTest.swift */; };
+		E46446EF29EE94ED00D22B8C /* TodoItemEntityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446EE29EE94ED00D22B8C /* TodoItemEntityTest.swift */; };
+		E46446F129EE96FC00D22B8C /* TodoItemEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446F029EE96FC00D22B8C /* TodoItemEntity.swift */; };
+		E46446F329EE9DB800D22B8C /* TodoListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46446F229EE9DB800D22B8C /* TodoListEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		E46446C329EE8A7400D22B8C /* LoginPageFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginPageFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46446C729EE8A7400D22B8C /* LoginPageFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageFirebaseUITests.swift; sourceTree = "<group>"; };
 		E46446C929EE8A7400D22B8C /* LoginPageFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E46446D829EE8CDB00D22B8C /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		E46446DB29EE8F5F00D22B8C /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
+		E46446DE29EE900A00D22B8C /* UserAuthUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthUseCase.swift; sourceTree = "<group>"; };
+		E46446E329EE90AB00D22B8C /* UserLoginUseCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginUseCaseTest.swift; sourceTree = "<group>"; };
+		E46446E529EE91E700D22B8C /* Respnse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respnse.swift; sourceTree = "<group>"; };
+		E46446EA29EE932600D22B8C /* UserEntityTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntityTest.swift; sourceTree = "<group>"; };
+		E46446EC29EE94DC00D22B8C /* TodoListEntityTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListEntityTest.swift; sourceTree = "<group>"; };
+		E46446EE29EE94ED00D22B8C /* TodoItemEntityTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemEntityTest.swift; sourceTree = "<group>"; };
+		E46446F029EE96FC00D22B8C /* TodoItemEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemEntity.swift; sourceTree = "<group>"; };
+		E46446F229EE9DB800D22B8C /* TodoListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,7 @@
 		E46446A529EE8A7300D22B8C /* LoginPageFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				E46446D629EE8BB700D22B8C /* Domain */,
 				E46446A629EE8A7300D22B8C /* AppDelegate.swift */,
 				E46446A829EE8A7300D22B8C /* SceneDelegate.swift */,
 				E46446AA29EE8A7300D22B8C /* ViewController.swift */,
@@ -113,6 +134,7 @@
 		E46446BC29EE8A7400D22B8C /* LoginPageFirebaseTests */ = {
 			isa = PBXGroup;
 			children = (
+				E46446E029EE906200D22B8C /* Domain */,
 				E46446BD29EE8A7400D22B8C /* LoginPageFirebaseTests.swift */,
 			);
 			path = LoginPageFirebaseTests;
@@ -125,6 +147,78 @@
 				E46446C929EE8A7400D22B8C /* LoginPageFirebaseUITestsLaunchTests.swift */,
 			);
 			path = LoginPageFirebaseUITests;
+			sourceTree = "<group>";
+		};
+		E46446D629EE8BB700D22B8C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E46446DA29EE8D1E00D22B8C /* UseCase */,
+				E46446D729EE8C6700D22B8C /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E46446D729EE8C6700D22B8C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E46446D829EE8CDB00D22B8C /* UserEntity.swift */,
+				E46446E529EE91E700D22B8C /* Respnse.swift */,
+				E46446F029EE96FC00D22B8C /* TodoItemEntity.swift */,
+				E46446F229EE9DB800D22B8C /* TodoListEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E46446DA29EE8D1E00D22B8C /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E46446DD29EE8FEA00D22B8C /* UserUseCase */,
+				E46446DB29EE8F5F00D22B8C /* UseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		E46446DD29EE8FEA00D22B8C /* UserUseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E46446DE29EE900A00D22B8C /* UserAuthUseCase.swift */,
+			);
+			path = UserUseCase;
+			sourceTree = "<group>";
+		};
+		E46446E029EE906200D22B8C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E46446E729EE92D400D22B8C /* Entities */,
+				E46446E129EE907400D22B8C /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E46446E129EE907400D22B8C /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E46446E229EE908100D22B8C /* UserUseCase */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		E46446E229EE908100D22B8C /* UserUseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E46446E329EE90AB00D22B8C /* UserLoginUseCaseTest.swift */,
+			);
+			path = UserUseCase;
+			sourceTree = "<group>";
+		};
+		E46446E729EE92D400D22B8C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E46446EA29EE932600D22B8C /* UserEntityTest.swift */,
+				E46446EC29EE94DC00D22B8C /* TodoListEntityTest.swift */,
+				E46446EE29EE94ED00D22B8C /* TodoItemEntityTest.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +352,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46446DF29EE900A00D22B8C /* UserAuthUseCase.swift in Sources */,
+				E46446F129EE96FC00D22B8C /* TodoItemEntity.swift in Sources */,
+				E46446DC29EE8F5F00D22B8C /* UseCase.swift in Sources */,
 				E46446AB29EE8A7300D22B8C /* ViewController.swift in Sources */,
 				E46446A729EE8A7300D22B8C /* AppDelegate.swift in Sources */,
+				E46446E629EE91E700D22B8C /* Respnse.swift in Sources */,
+				E46446D929EE8CDC00D22B8C /* UserEntity.swift in Sources */,
+				E46446F329EE9DB800D22B8C /* TodoListEntity.swift in Sources */,
 				E46446A929EE8A7300D22B8C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +368,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46446EB29EE932600D22B8C /* UserEntityTest.swift in Sources */,
+				E46446E429EE90AB00D22B8C /* UserLoginUseCaseTest.swift in Sources */,
+				E46446EF29EE94ED00D22B8C /* TodoItemEntityTest.swift in Sources */,
+				E46446ED29EE94DC00D22B8C /* TodoListEntityTest.swift in Sources */,
 				E46446BE29EE8A7400D22B8C /* LoginPageFirebaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
