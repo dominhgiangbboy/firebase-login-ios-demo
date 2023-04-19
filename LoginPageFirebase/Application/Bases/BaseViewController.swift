@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import UIKit
+
+class BaseViewController<T: BaseViewModel>: UIViewController{
+    var viewModel: T?
+}

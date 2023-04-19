@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+
+protocol BaseViewModelProtocol{
+    associatedtype U
+}
+
+
+class BaseViewModel: BaseViewModelProtocol{
+    typealias U = UseCase
+}
